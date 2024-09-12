@@ -30,7 +30,7 @@ def missions():
 
     return pipe(
         generate_missions(location_israel, targets, aircrafts, pilots),
-        partial(sorted, key=lambda m: m.fit_score)
+        partial(sorted, key=lambda m: m.fit_score, reverse=True)
     )
 
 def generate_missions(location_israel, targets, aircrafts, pilots):
@@ -68,7 +68,7 @@ def create_airstrike_mission(target, aircraft, pilot, weather, distance, score):
 
 def unique_mission(missions):
     return pipe(
-        missions[::-1],
+        missions,
         lambda x: reduce(
             lambda dict, n: dict if any(k in dict for k in [n.aircraft, n.target_city, n.pilot])
             else {**dict, n.aircraft: n, n.target_city: n, n.pilot: n}, x, {} ),
