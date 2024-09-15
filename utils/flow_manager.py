@@ -1,6 +1,6 @@
 from repository.csv_repository import write_missions_to_csv, read_missins_from_csv
 from repository.json_repository import read_target_from_json, read_pilot_from_json, read_aircraft_from_json
-from service.mission_service import missions, all_missions, unique_mission, unique_mission
+from service.mission_service import missions, unique_mission, unique_mission
 
 
 def menu():
@@ -20,8 +20,8 @@ def menu():
             read_missins_from_csv()
         elif choice == '3':
             all_missions = missions()
-            unique_mission = unique_mission(all_missions)
-            write_missions_to_csv(unique_mission)
+            unique_missions = unique_mission(all_missions)
+            write_missions_to_csv(unique_missions)
             print("Missions saved to CSV.")
         elif choice == '4':
             print("Exiting...")

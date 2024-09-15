@@ -1,8 +1,8 @@
 target_city,priority,pilot,aircraft,distance,weather,pilot_skill,speed,fuel_capacity,fit_score
-Gaza,5,Robert White,Heavy Bomber,149.98035574640159,"main: Clear, cloudsall: 0, windspeed: 5.79",10,850,6000,0.85
-Baghdad,5,Tom Cruise,Recon Drone,846.2502128082062,"main: Clear, cloudsall: 0, windspeed: 6.52",9,600,1200,0.83
-Damascus,5,Michael Clark,Stealth Fighter,132.8127281602895,"main: Clear, cloudsall: 0, windspeed: 2.92",9,1800,3500,0.83
-Doha,4,Shara Connor,Bomber,1770.308649684261,"main: Clear, cloudsall: 3, windspeed: 3.57",8,900,5000,0.78
-Ankara,4,John Doe,Drone,840.7961605957944,"main: Clear, cloudsall: 0, windspeed: 1.62",8,500,1000,0.78
-Kuwait,3,Alice Johnson,Fighter Jet,1255.4037544163361,"main: Clear, cloudsall: 0, windspeed: 8.85",7,1500,3000,0.7299999999999999
-Amman,3,Chris Prat,Helicopter,92.87220613061896,"main: Clear, cloudsall: 0, windspeed: 1.59",6,400,800,0.71
+Damascus,5,Robert White,Fighter Jet,132.8127281602895,"main: Clear, cloudsall: 0, windspeed: 4.06",10,1500,3000,0.85
+Baghdad,5,Michael Clark,Bomber,846.2502128082062,"main: Clear, cloudsall: 0, windspeed: 3.45",9,900,5000,0.83
+Doha,4,Tom Cruise,Stealth Fighter,1770.308649684261,"main: Clear, cloudsall: 0, windspeed: 1.29",9,1800,3500,0.7999999999999999
+Gaza,5,John Doe,Drone,149.98035574640159,"main: Clouds, cloudsall: 44, windspeed: 5.71",8,500,1000,0.7500000000000001
+Cairo,3,Shara Connor,Helicopter,485.00911326512215,"main: Clear, cloudsall: 0, windspeed: 3.87",8,400,800,0.75
+Riyadh,3,Alice Johnson,Heavy Bomber,1419.7512489932435,"main: Clear, cloudsall: 0, windspeed: 1.03",7,850,6000,0.7299999999999999
+Kuwait,3,Jane Smith,Recon Drone,1255.4037544163361,"main: Clear, cloudsall: 2, windspeed: 3.59",6,600,1200,0.6967603340627029
